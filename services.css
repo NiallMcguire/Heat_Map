@@ -1,0 +1,279 @@
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 5vh;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 5vh;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+button{
+    background-color: #008CBA;
+    color: white;
+    padding: 1vw;
+    height: 15vh;
+    width: 60vw;
+    border-radius: 8px;
+    border: solid;
+}
+
+
+button:focus {
+    outline: 0;
+}
+
+button:active{
+    background-color: #4CAF50;
+}
+
+.openbtn {
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 1vh;
+    height: 10vh;
+    width: 18vw;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 0;
+}
+
+@media screen and (max-height: 100vh) {
+    .sidebar {padding-top: 1vh;}
+    .sidebar a {font-size: 6vh;}
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#main{
+    padding: 0;
+}
+
+#Header{
+    margin: 0;
+    font-size: 4vh;
+    padding: 2vh;
+    width: 100vw;
+    font-family: Arial, serif;
+    height: 8vh;
+}
+
+#map{
+    height: 48vh;
+    width: 0;
+}
+
+#Units{
+    width: 30vw;
+    height: 4vh;
+}
+
+svg{
+    width: 100vw;
+    height: 80vh;
+}
+
+
+
+
+#Drumchapel:hover{
+    fill: red;
+}
+#Blairdardie:hover{
+    fill:red;
+}
+#Knightswood:hover{
+    fill:red;
+}
+#Knightswood:hover{
+    fill:red;
+}
+#Penilee:hover{
+    fill:red;
+}
+#Yoker:hover{
+    fill:red;
+}
+#Jordanhill:hover{
+    fill:red;
+}
+#Broomhill:hover{
+    fill:red;
+}
+#Hyndland:hover{
+    fill:red;
+}
+#Kelvindale:hover{
+    fill:red;
+}
+#Summerston:hover{
+    fill:red;
+}
+#Milton:hover{
+    fill:red;
+}
+#Possilpark:hover{
+    fill:red;
+}
+#Maryhill:hover{
+    fill:red;
+}
+#City_centre:hover{
+    fill:red;
+}
+#Yorkhill:hover{
+    fill:red;
+}
+#Ibrox:hover{
+    fill:red;
+}
+#Govan:hover{
+    fill:red;
+}
+#Bellahouston:hover{
+    fill:red;
+}
+#Crookston:hover{
+    fill:red;
+}
+#Corkerhill:hover{
+    fill:red;
+}
+#Pollokshaws:hover{
+    fill:red;
+}
+#Pollock:hover{
+    fill:red;
+}
+#Preisthill:hover{
+    fill:red;
+}
+#Darnley:hover{
+    fill:red;
+}
+#Arden:hover{
+    fill:red;
+}
+#Langside:hover{
+    fill:red;
+}
+#Shawlands:hover{
+    fill:red;
+}
+#Pollokshields_west:hover{
+    fill:red;
+}
+#Pollokshields_east:hover{
+    fill:red;
+}
+#Gorbals:hover{
+    fill:red;
+}
+#Bridgeton:hover{
+    fill:red;
+}
+#Dennistoun:hover{
+    fill:red;
+}
+#Roystonhill:hover{
+    fill:red;
+}
+#Springburn:hover{
+    fill:red;
+}
+#Balornock:hover{
+    fill:red;
+}
+#Robroyston:hover{
+    fill:red;
+}
+#Ruchazie:hover{
+    fill:red;
+}
+#Blackhill:hover{
+    fill:red;
+}
+#Easterhouse:hover{
+    fill:red;
+}
+#Barlanark:hover{
+    fill:red;
+}
+#Riddrie:hover{
+    fill:red;
+}
+#Haghill:hover{
+    fill:red;
+}
+#West_shettleston:hover{
+    fill:red;
+}
+#Parkhead:hover{
+    fill:red;
+}
+#East_shettleston:hover{
+    fill:red;
+}
+#Garrowhill:hover{
+    fill:red;
+}
+#Toryglen:hover{
+    fill:red;
+}
+#Govanhill:hover{
+    fill:red;
+}
+#Kings_path:hover{
+    fill:red;
+}
+#Croftfoot:hover{
+    fill:red;
+}
+#Cathcart:hover{
+    fill:red;
+}
+#Castlemilk:hover{
+    fill:red;
+}
+#Carmunnock:hover{
+    fill:red;
+}
+#Newlands:hover{
+    fill:red;
+}
+#Hillhead:hover{
+    fill:red;
+}
+#Anniesland:hover{
+    fill:red;
+}
